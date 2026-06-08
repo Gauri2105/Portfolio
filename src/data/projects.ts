@@ -1,5 +1,7 @@
 import type { Project } from "../types";
 
+const base = import.meta.env.BASE_URL;
+
 export const projectsData: Project[] = [
   {
     title: "School Bus Tracking System",
@@ -28,13 +30,13 @@ export const projectsData: Project[] = [
     ],
 
     screenshots: [
-      "/projects/school-bus/1.png",
-      "/projects/school-bus/2.png",
-      "/projects/school-bus/3.png",
-      "/projects/school-bus/4.png",
-      "/projects/school-bus/5.png",
-      "/projects/school-bus/6.png",
-      "/projects/school-bus/7.png",
+      `${base}projects/school-bus/1.png`,
+      `${base}projects/school-bus/2.png`,
+      `${base}projects/school-bus/3.png`,
+      `${base}projects/school-bus/4.png`,
+      `${base}projects/school-bus/5.png`,
+      `${base}projects/school-bus/6.png`,
+      `${base}projects/school-bus/7.png`,
     ],
   },
 
@@ -45,13 +47,7 @@ export const projectsData: Project[] = [
     description:
       "A Shopify-powered product bundling platform that enables customers to create custom product kits with dynamic pricing and inventory validation. The application helps merchants increase sales while maintaining accurate inventory synchronization.",
 
-    technologies: [
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Shopify APIs",
-    ],
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Shopify APIs"],
 
     features: [
       "Custom product bundle creation",
@@ -63,11 +59,11 @@ export const projectsData: Project[] = [
     ],
 
     screenshots: [
-      "/projects/jozi/1.png",
-      "/projects/jozi/2.png",
-      "/projects/jozi/3.png",
-      "/projects/jozi/4.png",
-      "/projects/jozi/5.png",
+      `${base}projects/jozi/1.png`,
+      `${base}projects/jozi/2.png`,
+      `${base}projects/jozi/3.png`,
+      `${base}projects/jozi/4.png`,
+      `${base}projects/jozi/5.png`,
     ],
   },
 
@@ -78,13 +74,7 @@ export const projectsData: Project[] = [
     description:
       "A mobile-first salon management platform designed to streamline appointment scheduling, customer management, staff operations, subscriptions and online payments through an intuitive interface.",
 
-    technologies: [
-      "Angular",
-      "Ionic",
-      "Node.js",
-      "MySQL",
-      "Razorpay",
-    ],
+    technologies: ["Angular", "Ionic", "Node.js", "MySQL", "Razorpay"],
 
     features: [
       "Appointment booking system",
@@ -96,11 +86,11 @@ export const projectsData: Project[] = [
     ],
 
     screenshots: [
-      "/projects/salon/1.png",
-      "/projects/salon/2.png",
-      "/projects/salon/3.png",
-      "/projects/salon/4.png",
-      "/projects/salon/5.png",
+      `${base}projects/salon/1.png`,
+      `${base}projects/salon/2.png`,
+      `${base}projects/salon/3.png`,
+      `${base}projects/salon/4.png`,
+      `${base}projects/salon/5.png`,
     ],
   },
 
@@ -130,12 +120,12 @@ export const projectsData: Project[] = [
     ],
 
     screenshots: [
-      "/projects/paywallet/1.png",
-      "/projects/paywallet/2.png",
-      "/projects/paywallet/3.png",
-      "/projects/paywallet/4.png",
-      "/projects/paywallet/5.png",
-      "/projects/paywallet/6.png",
+      `${base}projects/paywallet/1.png`,
+      `${base}projects/paywallet/2.png`,
+      `${base}projects/paywallet/3.png`,
+      `${base}projects/paywallet/4.png`,
+      `${base}projects/paywallet/5.png`,
+      `${base}projects/paywallet/6.png`,
     ],
 
     github: "https://github.com/Gauri2105/paywallet-app",

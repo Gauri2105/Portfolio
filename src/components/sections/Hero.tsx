@@ -107,7 +107,7 @@ const Hero = () => {
             <div className="absolute inset-0 rounded-full bg-sky-500 opacity-20 blur-3xl" />
 
             <img
-              src="/profile.png"
+              src={`${import.meta.env.BASE_URL}profile.png`}
               alt="Gauri Gujar"
               className="relative h-[320px] w-[320px] rounded-full border-4 border-sky-400 object-cover shadow-[0_0_80px_rgba(56,189,248,0.4)] md:h-[420px] md:w-[420px]"
             />
