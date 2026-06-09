@@ -80,12 +80,12 @@ const Hero = () => {
             </div>
 
             <div className="rounded-xl border border-slate-700 bg-slate-900/50 p-4">
-              <h3 className="text-2xl font-bold text-sky-400">4+</h3>
+              <h3 className="text-2xl font-bold text-sky-400">6+</h3>
               <p className="text-sm text-slate-400">Major Projects</p>
             </div>
 
             <div className="rounded-xl border border-slate-700 bg-slate-900/50 p-4">
-              <h3 className="text-2xl font-bold text-sky-400">50+</h3>
+              <h3 className="text-2xl font-bold text-sky-400">150+</h3>
               <p className="text-sm text-slate-400">REST APIs</p>
             </div>
 
