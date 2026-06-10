@@ -1,4 +1,4 @@
-# Portfolio Website
+# Portfolio
 
 A modern and responsive personal portfolio built with React, TypeScript, and Vite to showcase my skills, projects, and professional experience.
 
